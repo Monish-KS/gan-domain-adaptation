@@ -1,0 +1,259 @@
+# ============================================
+# ML Models and Checkpoints
+# ============================================
+# PyTorch model files
+*.pth
+*.pt
+*.ckpt
+
+# Model checkpoints directories
+checkpoints/
+outputs/checkpoints/
+experiments/**/checkpoints/
+
+# ============================================
+# Datasets (only ignore large raw files)
+# ============================================
+# Large raw dataset files (keep smaller processed files)
+*.mat
+*.gz
+*.ubyte
+
+# Uncomment below to ignore entire data directory if too large
+# data/
+# datasets/
+
+# ============================================
+# Experiment Outputs
+# ============================================
+# Keep outputs/ directory and its contents
+# Keep experiments/ directory and its contents
+# outputs/
+# experiments/
+
+# Large experiment runs (uncomment if needed)
+# experiments/*/
+
+# ============================================
+# Generated Images
+# ============================================
+# Keep generated images
+# gan_images/
+# *.png
+# *.jpg
+# *.jpeg
+
+# ============================================
+# TensorBoard Logs
+# ============================================
+# Keep TensorBoard logs
+# tensorboard_logs/
+# **/tensorboard_logs/
+# *.tfevents.*
+# events.out.tfevents.*
+
+# ============================================
+# Result Files
+# ============================================
+# Keep result files
+# results.txt
+# *.json
+!package.json
+!package-lock.json
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Node.js / React Frontend
+# ============================================
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production build
+build/
+dist/
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+/coverage
+
+# ============================================
+# IDEs and Editors
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Temporary and Cache Files
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# ============================================
+# Project Specific (Keep if needed)
+# ============================================
+# Uncomment below if you want to keep certain files
+# !outputs/README.md
+# !experiments/README.md
+
+# Keep web interface plan and README
+!README.md
+!web_interface_plan.md
+!web_interface/frontend/README.md
+

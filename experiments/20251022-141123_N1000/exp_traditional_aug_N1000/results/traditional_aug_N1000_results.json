@@ -1,0 +1,18 @@
+{
+    "scenario": "traditional_aug",
+    "n_samples": 1000,
+    "batch_size": 64,
+    "classifier_lr": 0.001,
+    "classifier_epochs_mnist": 5,
+    "classifier_epochs_finetune": 20,
+    "gan_nz": 100,
+    "gan_ngf": 64,
+    "gan_ndf": 64,
+    "gan_nc": 1,
+    "gan_n_classes": 10,
+    "n_synthetic": 5000,
+    "final_accuracy": 0.7700138291333744,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.6369    0.8068    0.7119      1744\n           1     0.9132    0.8155    0.8616      5099\n           2     0.9318    0.7414    0.8258      4149\n           3     0.8029    0.6249    0.7028      2882\n           4     0.7524    0.8601    0.8027      2523\n           5     0.7279    0.8339    0.7773      2384\n           6     0.7396    0.7112    0.7251      1977\n           7     0.7475    0.8519    0.7963      2019\n           8     0.6631    0.5904    0.6246      1660\n           9     0.5508    0.8395    0.6652      1595\n\n    accuracy                         0.7700     26032\n   macro avg     0.7466    0.7675    0.7493     26032\nweighted avg     0.7887    0.7700    0.7723     26032\n",
+    "timestamp": "2025-10-22T14:16:52.662765",
+    "log_dir": "./experiments\\20251022-141123_N1000\\exp_traditional_aug_N1000\\tensorboard_logs\\20251022-141517_traditional_aug_N1000"
+}

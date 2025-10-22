@@ -1,0 +1,18 @@
+{
+    "scenario": "source_only",
+    "n_samples": 100,
+    "batch_size": 64,
+    "classifier_lr": 0.001,
+    "classifier_epochs_mnist": 5,
+    "classifier_epochs_finetune": 20,
+    "gan_nz": 100,
+    "gan_ngf": 64,
+    "gan_ndf": 64,
+    "gan_nc": 1,
+    "gan_n_classes": 10,
+    "n_synthetic": 5000,
+    "final_accuracy": 0.27105101413644744,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.1793    0.1583    0.1681      1744\n           1     0.3588    0.3652    0.3619      5099\n           2     0.5672    0.2145    0.3113      4149\n           3     0.7090    0.1124    0.1941      2882\n           4     0.1545    0.4253    0.2266      2523\n           5     0.4801    0.2580    0.3356      2384\n           6     0.2248    0.1831    0.2018      1977\n           7     0.2080    0.5077    0.2951      2019\n           8     0.2364    0.2139    0.2245      1660\n           9     0.2716    0.1718    0.2104      1595\n\n    accuracy                         0.2711     26032\n   macro avg     0.3390    0.2610    0.2530     26032\nweighted avg     0.3750    0.2711    0.2714     26032\n",
+    "timestamp": "2025-10-22T14:06:56.810275",
+    "log_dir": "./experiments\\20251022-140522_N100\\exp_source_only_N100\\tensorboard_logs\\20251022-140535_source_only_N100"
+}

@@ -1,0 +1,18 @@
+{
+    "scenario": "fine_tune",
+    "n_samples": 10,
+    "batch_size": 64,
+    "classifier_lr": 0.001,
+    "classifier_epochs_mnist": 5,
+    "classifier_epochs_finetune": 20,
+    "gan_nz": 100,
+    "gan_ngf": 64,
+    "gan_ndf": 64,
+    "gan_nc": 1,
+    "gan_n_classes": 10,
+    "n_synthetic": 5000,
+    "final_accuracy": 0.23597879532882607,
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.3555    0.1841    0.2425      1744\n           1     0.3145    0.1573    0.2097      5099\n           2     0.2233    0.6715    0.3351      4149\n           3     0.6182    0.1270    0.2107      2882\n           4     0.2223    0.1161    0.1526      2523\n           5     0.5631    0.2114    0.3074      2384\n           6     0.2398    0.0774    0.1170      1977\n           7     0.1700    0.2263    0.1941      2019\n           8     0.1124    0.2657    0.1579      1660\n           9     0.4444    0.0125    0.0244      1595\n\n    accuracy                         0.2360     26032\n   macro avg     0.3264    0.2049    0.1952     26032\nweighted avg     0.3284    0.2360    0.2125     26032\n",
+    "timestamp": "2025-10-22T09:37:28.876452",
+    "log_dir": "./experiments\\20251022-093625\\exp_fine_tune_N10\\tensorboard_logs\\20251022-093625_fine_tune_N10"
+}
