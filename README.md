@@ -470,11 +470,11 @@ If you use this code for your research, please cite:
 
 ```bibtex
 @misc{domain_adaptation_gan,
-  author = {Your Name},
+  author = {Monish K S, Nitish S},
   title = {Domain Adaptation with GAN-based Data Augmentation},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/DLProject}
+  url = {https://github.com/Monish-KS/gan-domain-adaptation}
 }
 ```
 
